@@ -31,8 +31,8 @@ class Supermercado {
 				cliente.setPosicion(movidos);
 				filaRapida.add(cliente);
 				movidos++;
-			}else {
-				cliente.setPosicion(cliente.getPosicion()-movidos);
+			} else {
+				cliente.setPosicion(cliente.getPosicion() - movidos);
 			}
 		}
 		fila.removeAll(filaRapida);

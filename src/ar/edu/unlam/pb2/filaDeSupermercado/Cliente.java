@@ -20,7 +20,7 @@ public class Cliente {
 
 	public void setPosicion(Integer posicion2) {
 		this.posicion = posicion2;
-		
+
 	}
 
 }
